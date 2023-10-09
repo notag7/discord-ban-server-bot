@@ -1,0 +1,28 @@
+1. Install all requirements:
+
+-Download python
+
+-run the following commands: 
+
+pip install discord
+
+pip install discord.ext
+
+pip install datetime
+
+pip install asyncio
+
+
+
+2. Get your Bot token (yes this time a bot token)
+
+
+3. Fill in the bot token into the file and copy the userids.txt to this folder. 
+
+4. Run the python file and wait until the bot starts.
+
+5 Use the +banall command (if you havent changed it) 
+
+6. Wait untill the bot is done. 
+
+Note: The speed of the process can be very slow when there are a lot of users in the server, also your bot maybe gets timeouted by discord, then you have to increase the number on line 26. 
