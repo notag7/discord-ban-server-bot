@@ -1,0 +1,50 @@
+1. Install all requirements:
+
+-Install node js from the offical website
+
+-Open a terminal and run the following command
+
+
+
+-npm install discord.js-selfbot-v13@latest
+
+
+
+2. Get your ACCOUNT TOKEN ! (a bot token wont work)
+
+- Use " strg / ctrl - shift - i " to open a console
+
+- and run this code.... it will copy your discord token to your clipboard !
+
+
+window.webpackChunkdiscord_app.push([
+  [Math.random()],
+  {},
+  req => {
+    for (const m of Object.keys(req.c)
+      .map(x => req.c[x].exports)
+      .filter(x => x)) {
+      if (m.default && m.default.getToken !== undefined) {
+        return copy(m.default.getToken());
+      }
+      if (m.getToken !== undefined) {
+        return copy(m.getToken());
+      }
+    }
+  },
+]);
+console.log('%cWorked!', 'font-size: 50px');
+console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
+
+
+
+
+
+
+3. Put token into the indext.js file. 
+
+4. Use "node ." to start the bot. 
+
+5. In the server you want to get all users, use the standart command "!top" to save all userids. (or if you changed the command use you command) 
+
+6. Stop the bot and move onto the Discord bot in python. See --> stage 2
