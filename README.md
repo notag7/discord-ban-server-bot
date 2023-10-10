@@ -35,4 +35,4 @@ Please use these scripts responsibly and in compliance with Discord's Terms of S
 
 If you encounter any issues or have questions, feel free to open an issue in this repository.
 
-Happy coding!
+Happy banning lol :3 
