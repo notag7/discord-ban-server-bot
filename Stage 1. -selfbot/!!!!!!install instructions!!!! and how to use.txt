@@ -41,7 +41,7 @@ console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 
 
 
-3. Put token into the indext.js file. 
+3. Put token into the index.js file. 
 
 4. Use "node ." to start the bot. 
 
