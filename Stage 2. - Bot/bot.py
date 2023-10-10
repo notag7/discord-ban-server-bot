@@ -20,7 +20,7 @@ async def banall(ctx):
         for userid in userids:
             try:
                 user = await client.fetch_user(userid)
-                await ctx.guild.ban(user, reason='User banned by Ban Wave')
+                await ctx.guild.ban(user, reason='UWU') # enter the ban reason here
                 print(f'{user.name}#{user.discriminator} was banned')
                 await ctx.send(f'{user.name}#{user.discriminator} was banned')
                 await asyncio.sleep(5) #
